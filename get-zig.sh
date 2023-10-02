@@ -23,4 +23,5 @@ check-download || {
 
 tar -C toolchain/versions -xf toolchain/download/${archive}
 
+rm -f zig
 ln -s toolchain/versions/zig-${os}-${arch}-${version}/zig zig
