@@ -2,3 +2,5 @@
 /zig-out/
 /answers/
 /patches/healed/
+/toolchain
+/zig
